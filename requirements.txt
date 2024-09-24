@@ -1,0 +1,9 @@
+streamlit
+streamlit-option-menu
+pytest
+selenium
+pandasai
+csv
+requests
+os
+plotly
