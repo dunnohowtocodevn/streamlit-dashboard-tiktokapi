@@ -1,14 +1,15 @@
 pipeline {
     agent any
-     stages {
+   
+        
+     
+    stages {
         stage('Clone repository') {
             steps {
                 echo 'Cloning repository...'
                 git 'https://github.com/dunnohowtocodevn/streamlit-dashboard-tiktokapi.git' 
             }
         }
-     }
-    stages {
         stage('Build') {
             steps {
                 echo 'Building the project...'
